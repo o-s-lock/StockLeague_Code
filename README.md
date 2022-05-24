@@ -11,27 +11,27 @@ GitHubの基本的な使い方については, [このサイト](https://techaca
 コードは昨年の活動の時から変更しておらず説明が不足している部分があるかもしれませんので, 分からない場合は質問してください.  
 
 
-## 各スクリーニングの該当ファイル  
+## 各スクリーニングの該当ファイル(各スクリーニングの詳細は, 研究会のページで公開された昨年の論文(3班)で確認してください.)
 
 - 第1スクリーニング  
-  sl_selcom(ver1.4).ipynb  
+  sl_selcom(ver1.4).ipynb  (テキストマイニング, WordCloud)  
    
 - 第2スクリーニング  
 
   - 雇用  
-    sl_2nd_emp.ipynb  
+    sl_2nd_emp.ipynb  (テキストマイニング)  
     
   - 地方展開  
-    sl_2nd_Local_expansion_scoring(ver1.1).ipynb  
+    sl_2nd_Local_expansion_scoring(ver1.1).ipynb  (クラスタ分析)  
     (地価と高齢化率は sl_2ndsc_prefsel_Landprice.ipynb)  
     ・第2スクリーニングのまとめもこのファイルにあります  
     
-  - スーパーシティ＆DXへの取り組み   
+  - スーパーシティ＆DXへの取り組み   (テキストマイニング)  
     sl_2ndsc_IR(ver1.3).ipynb  
     
 - 第3スクリーニング  
-  sl_3rdscreening_scoring.ipynb  
+  sl_3rdscreening_scoring.ipynb  (因子分析, 回帰分析, 財務分析)  
   (スクリーニングの検証は sl_test.ipynb)
   
-- 投資配分の決定  
+- 投資配分の決定  (効率的フロンティアの描画)  
   Frontier_screening(ver1.1).ipynb
